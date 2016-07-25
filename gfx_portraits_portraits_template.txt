@@ -1,0 +1,123 @@
+character = {
+	size = { x = 475 y = 380 }
+
+	entity = {
+		orientation = center_down
+		position = { x = 50 y = -20 }
+		scale = 24
+	}
+	#2d Portrait position
+	icon = {
+		orientation = center_down
+		position = { x = 0 y = 0 }
+		scale = 1.0
+	}
+}
+
+portraits = {
+	{% for label in label_list %}
+  {{label}} = { clothes_selector = "no_texture" hair_selector = "no_texture"  
+  greeting_sound = "mammalian_01_greetings" texturefile = "{{ label_map[label] }}" }
+  {% endfor %}
+}
+
+portrait_groups = {
+  {% for group in group_list %}
+  {{ group.name }} = {
+    default = {{ group.default }}
+    game_setup = {
+      add = {
+        trigger = {
+          ruler = { gender = male }
+        }
+				portraits = {
+					{%- for portrait in group.portrait %}
+          {{ portrait -}}
+          {% endfor %}
+				}
+      }
+      add = {
+        trigger = {
+          ruler = { gender = female }
+        }
+				portraits = {
+					{%- for portrait in group.portrait %}
+          {{ portrait -}}
+          {% endfor %}
+				}
+      }
+    }
+    
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					{%- for portrait in group.portrait %}
+          {{ portrait -}}
+          {% endfor %}
+				}
+			}
+		}
+    
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					{%- for portrait in group.portrait %}
+          {{ portrait -}}
+          {% endfor %}
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					{%- for portrait in group.portrait %}
+          {{ portrait -}}
+          {% endfor %}
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					{%- for portrait in group.portrait %}
+          {{ portrait -}}
+          {% endfor %}
+				}
+			}
+		}
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					{%- for portrait in group.portrait %}
+          {{ portrait -}}
+          {% endfor %}
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					{%- for portrait in group.portrait %}
+          {{ portrait -}}
+          {% endfor %}
+				}
+			}
+		}
+  }
+  {% endfor %}
+}
+  
+

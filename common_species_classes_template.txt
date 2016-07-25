@@ -1,0 +1,10 @@
+{{ specie_name }} = {
+	portraits = {
+    {%- for portraits in portraits_list %}
+    "{{- portraits.name -}}"
+    {% endfor %}
+	}
+	
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

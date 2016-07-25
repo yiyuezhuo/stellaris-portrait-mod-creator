@@ -1,0 +1,411 @@
+# Generated species derive their names from here
+
+
+{{ specie_name }} = {
+	kroll = {
+		name = Kroll
+		plural = Kroll
+		home_planet = "Krolldar Prime"
+		home_system = Krolldar
+		name_list = "MAM1"
+	}
+
+	orassian = {
+		name = Orassian
+		plural = Orassians
+		home_planet = Orassia
+		home_system = Orass
+		name_list = "MAM2"
+	}
+
+	aramathi = {
+		name = Aramathi
+		plural = Aramathi
+		home_planet = Arakim
+		home_system = Aramus
+		name_list = "MAM3"
+	}
+		
+	immutharan = {
+		name = Immutharan
+		plural = Immutharans
+		home_planet = Immuth
+		home_system = Immuthor
+		name_list = "MAM2"
+	}
+
+	hiffnar = {
+		name = Hiffnar
+		plural = Hiffnari
+		home_planet = Hiffnus
+		home_system = Hiff
+		name_list = "MAM4"
+	}
+	
+	zaanami = {
+		name = Zaanami
+		plural = Zaanami
+		home_planet = Zaanamar
+		home_system = Zaan
+		name_list = "MAM5"
+	}
+
+	estwani = {
+		name = Estwani
+		plural = Estwani
+		home_planet = Estwaana
+		home_system = Wani
+		name_list = "MAM3"
+	}
+
+	vailon = {
+		name = Vailon
+		plural = Vailons
+		home_planet = Vallgar
+		home_system = Vidirion
+		name_list = "MAM1"
+	}
+
+	raltek = {
+		name = Raltek
+		plural = Raltek
+		home_planet = "Ratann Bir"
+		home_system = Raltess
+		name_list = "MAM2"
+	}
+
+	birnathi = {
+		name = Birnathi
+		plural = Birnathi
+		home_planet = Birnus
+		home_system = Dethirus
+		name_list = "MAM3"
+	}
+
+	othari = {
+		name = Othari
+		plural = Othari
+		home_planet = Otharia
+		home_system = Othor
+		name_list = "MAM4"
+	}
+
+	evandari = {
+		name = Evandari
+		plural = Evandari
+		home_planet = "Evanda Zuun"
+		home_system = Evon
+		name_list = "MAM5"
+	}
+
+	bothrian = {
+		name = Bothrian
+		plural = Bothrians
+		home_planet = Bothria
+		home_system = "Bothmaras"
+		name_list = "MAM1"
+	}
+
+	dorbolan = {
+		name = Dorbolan
+		plural = Dorbolans
+		home_planet = Dorbol
+		home_system = Dimas-Qul
+		name_list = "MAM2"
+	}
+
+	fevarian = {
+		name = Fevarian
+		plural = Fevarians
+		home_planet = Fevaria
+		home_system = Fevnor
+		name_list = "MAM3"
+	}
+
+	kenjodan = {
+		name = Kenjodan
+		plural = Kenjodani
+		home_planet = "Kenjor Prime"
+		home_system = Kenjor
+		name_list = "MAM4"
+	}
+
+	glyrran = {
+		name = Glyrran
+		plural = Glyrrans
+		home_planet = Glyrra
+		home_system = Glyrr
+		name_list = "MAM5"
+	}
+	
+	pallyrian = {
+		name = Pallyrian
+		plural = Pallyrians
+		home_planet = Pallyria
+		home_system = Detnura
+		name_list = "MAM3"
+	}
+	
+	quvarian = {
+		name = Quvarian
+		plural = Quvarians
+		home_planet = Quntos
+		home_system = "Qara Binam"
+		name_list = "MAM1"
+	}
+	
+	qellnuram = {
+		name = Qell'Nudar
+		plural = Qell'Nudar
+		home_planet = Qell
+		home_system = "Hir'Qelli"
+		name_list = "MAM2"
+	}
+	
+	valdari = {
+		name = Valdari
+		plural = Valdari
+		home_planet = Vak-Nosha
+		home_system = Val'Sho
+		name_list = "MAM5"
+	}
+	
+	igarian = {
+		name = Igarian
+		plural = Igarians
+		home_planet = Igaria
+		home_system = Igra
+		name_list = "MAM4"
+	}
+	
+	adnoran = {
+		name = Adnoran
+		plural = Adnorans
+		home_planet = Adnor
+		home_system = Adanir
+		name_list = "MAM3"
+	}
+	
+	T'Jell = {
+		name = T'Jell
+		plural = T'Jell
+		home_planet = "Hiris'Mo"
+		home_system = Takan'Ja
+		name_list = "MAM4"
+	}
+	
+	tarassi = {
+		name = Tarassi
+		plural = Tarassi
+		home_planet = Tarraska
+		home_system = Rolder
+		name_list = "MAM1"
+	}
+	tumbator = {
+		name = Tumbator
+		plural = Tumbatorians
+		home_planet = "Tumbatik Prime"
+		home_system = Tumbatika
+		name_list = "MAM1"
+	}
+
+	onotach = {
+		name = Onotach
+		plural = Onotachi
+		home_planet = O'Nota
+		home_system = O'Notach
+		name_list = "MAM2"
+	}
+
+	yapathi = {
+		name = Yapathi
+		plural = Yapathi
+		home_planet = Yapathi
+		home_system = Yapathinor
+		name_list = "MAM3"
+	}
+		
+	rekthalar = {
+		name = Rek'Thalar
+		plural = Rek'Thalari
+		home_planet = Rek'Omak
+		home_system = Rek'Thaa
+		name_list = "MAM2"
+	}
+
+	zum = {
+		name = Zum
+		plural = Zumi
+		home_planet = Hiffnus
+		home_system = Hiff
+		name_list = "MAM4"
+	}
+	
+	ugarlak = {
+		name = Ugarlak
+		plural = Ugarlaki
+		home_planet = "Ugarlak Nog"
+		home_system = Ugarlall
+		name_list = "MAM5"
+	}
+
+	glostwerheni = {
+		name = Glost-Werheni
+		plural = Glost-Werheni
+		home_planet = Werheni
+		home_system = "Werheni Sui"
+		name_list = "MAM3"
+	}
+
+	mekonass = {
+		name = Meko'Nass
+		plural = Meko'Nassi
+		home_planet = Mekon
+		home_system = "Meko Goldra"
+		name_list = "MAM1"
+	}
+
+	oklarr = {
+		name = Oklarr
+		plural = Oklarri
+		home_planet = "Oklar Prime"
+		home_system = Sakterokla
+		name_list = "MAM2"
+	}
+
+	drullperfen = {
+		name = Drull'Perfen
+		plural = Drull'Perfeni
+		home_planet = Drull
+		home_system = "Drull Ikrel"
+		name_list = "MAM3"
+	}
+
+	photecian = {
+		name = Photecian
+		plural = Photecians
+		home_planet = Istaci
+		home_system = Istaccin'uk
+		name_list = "MAM4"
+	}
+
+	wessari = {
+		name = Wessari
+		plural = Wessari
+		home_planet = "Ugl Mak"
+		home_system = "Ugl Oma'Mak"
+		name_list = "MAM5"
+	}
+
+	lahtrepian = {
+		name = Lahtrepian
+		plural = Lahtrepians
+		home_planet = Umikandra
+		home_system = "Umikandra Ogatt"
+		name_list = "MAM1"
+	}
+
+	ekwynian = {
+		name = Ekwynian
+		plural = Ekwynians
+		home_planet = Snotalitvish
+		home_system = "Snotalitvish-Qa"
+		name_list = "MAM2"
+	}
+
+	ragerian = {
+		name = Ragerian
+		plural = Ragerians
+		home_planet = Aeria
+		home_system = "Aeria Husila"
+		name_list = "MAM3"
+	}
+
+	pouzjok = {
+		name = Pouz-Jok
+		plural = Pouz-Jokans
+		home_planet = "Pouzjok Prime"
+		home_system = Lokand
+		name_list = "MAM4"
+	}
+
+	jusstkan = {
+		name = Jusstkan
+		plural = Jusstkans
+		home_planet = Jusstka
+		home_system = Juss
+		name_list = "MAM5"
+	}
+	
+	klaggian = {
+		name = Klaggian
+		plural = Klaggians
+		home_planet = Lyrogg
+		home_system = Lagragga
+		name_list = "MAM3"
+	}
+	
+	uqopraknar = {
+		name = Uqo'Praknar
+		plural = Uqo'Praknarians
+		home_planet = Qawlogg
+		home_system = "Losstran Peav"
+		name_list = "MAM1"
+	}
+	
+	onedqarak = {
+		name = Oned'Qarak
+		plural = Oned'Qaraki
+		home_planet = Ire'Laoman
+		home_system = "Ire'Laom Jumtra"
+		name_list = "MAM2"
+	}
+	
+	ruphaari = {
+		name = Ruphaari
+		plural = Ruphaari
+		home_planet = Ruphaa
+		home_system = Rupha'iaa
+		name_list = "MAM5"
+	}
+	
+	qwepulci = {
+		name = Qwe'Pulci
+		plural = Qwe'Pulcians
+		home_planet = Uklapp
+		home_system = Uklapp'Knor
+		name_list = "MAM4"
+	}
+	
+	groknaploran = {
+		name = Groknaploran
+		plural = Groknaplorans
+		home_planet = Adnor
+		home_system = Adanir
+		name_list = "MAM3"
+	}
+	
+	ktaknor = {
+		name = K'Taknor
+		plural = K'Taknorians
+		home_planet = "Ufram Puf"
+		home_system = Ufram
+		name_list = "MAM4"
+	}
+	
+	gagassi = {
+		name = Gagassi
+		plural = Gagassi
+		home_planet = Meknassa
+		home_system = Pultran'Ogg
+		name_list = "MAM1"
+	}
+	
+	hadadeshi = {
+		name = Hadadeshi
+		plural = Hadadeshi
+		home_planet = Vababa
+		home_system = Ba'Vababa
+		name_list = "MAM1"
+	}
+}
